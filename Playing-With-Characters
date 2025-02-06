@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+    char a,b[100],s[1000];
+    scanf("%c",&a);
+    scanf("%s",b);
+    getchar();
+    scanf ("%[^\n]%*s",s);
+    printf("%c\n%s\n%s",a,b,s);   
+    return 0;
+}
